@@ -301,17 +301,17 @@
             <button type="submit" class="btn btn-secondary">Enviar</button>
           </div>
           <!-- OJO A ESTE LINK -->
-          <input
+          <!-- <input
             type="hidden"
             name="_next"
             value="https://www.gestoriajya.com.ar/?formSend=success#contactos"
-          />
+          /> -->
           <input type="hidden" name="_captcha" value="false" />
         </form>
       </div>
       <p class="text-center text-white p-3.4 pb-0 fs-5">
-        También puede ponerse en contacto mediante el siguiente teléfono o
-        e-mail
+        También puede ponerse en contacto mediante el siguiente e-mail o
+        teléfono:
       </p>
       <div class="contain mt-4">
         <span
@@ -331,12 +331,33 @@
         ></span>
         <h2 class="text-white fs-5">661805954</h2>
       </div>
+
+      <button id="whatsappButton" class="image-button">Enviar WhatsApp</button>
+      <div class="whatsapp">
+        <script>
+          document
+            .getElementById("whatsappButton")
+            .addEventListener("click", function () {
+              // Número de teléfono al que deseas enviar el mensaje
+              var phoneNumber = "661805954"; // Reemplaza con el número deseado
+
+              // Crea el enlace de WhatsApp
+              var whatsappLink =
+                "https://api.whatsapp.com/send?phone=" +
+                phoneNumber +
+                "&text=" +
+                encodeURIComponent(message);
+
+              // Abre una nueva ventana o pestaña con el enlace
+              window.open(whatsappLink);
+            });
+        </script>
+      </div>
     </section>
 
     <footer>
-      <a target="__blank" href="https://github.com/pablodimarco"
-        >Copyright © 2023 - Injumar Gestión, S.L.U.</a
-      >
+      Copyright © 2023 - Injumar Gestión, S.L.U.
+
       <!-- OJO, FALTA POLITICA PRIVACIDAD, ETC.... -->
     </footer>
 

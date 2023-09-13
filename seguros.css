@@ -1,0 +1,39 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(150px, 1fr)
+  ); /* Columnas adaptables */
+  gap: 10px; /* Espacio entre celdas */
+  padding: 10px; /* Espacio alrededor de la rejilla */
+  height: 100vh; /* Toma el 100% del alto de la ventana */
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+}
+
+/* Estilos para las celdas */
+.grid-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff; /* Color de fondo de las celdas */
+  border-radius: 10px;
+  border: 1px solid #ccc; /* Borde de las celdas */
+  padding: 20px; /* Espacio interno */
+  text-align: center; /* Centrar texto en celdas */
+}
+
+/* Estilos para los enlaces dentro de las celdas */
+.grid-item a {
+  text-decoration: none; /* Quitar subrayado de los enlaces */
+  color: #333; /* Color del texto de los enlaces */
+  font-weight: bold;
+}
+
+/* Media Query para tamaños de pantalla más pequeños (móviles) */
+@media (max-width: 768px) {
+  .grid-item {
+    padding: 10px; /* Reduce el espacio interno en tamaños pequeños */
+    font-size: 14px; /* Tamaño de fuente más pequeño */
+  }
+}

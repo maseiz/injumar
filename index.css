@@ -126,12 +126,12 @@ nav.abajo {
 .Qsomos .title-s h2 {
   text-align: center;
   color: white;
-  font-weight: 700;
+  font-weight: 500;
 }
 .Qsomos .title-s .hr-line {
   border: none;
   border-radius: 1rem;
-  width: 5rem;
+  width: 20rem;
   height: 0.5rem;
   color: #fffaeb;
   opacity: 1;
@@ -180,7 +180,7 @@ nav.abajo {
   padding: 1rem;
   border-radius: 20px;
   box-shadow: 4px 4px 8px 2px #333;
-  width: 80%;
+  width: 90%;
   margin-bottom: 1rem;
 }
 .Service div h2 {
@@ -191,6 +191,29 @@ nav.abajo {
   font-size: calc(1rem + 0.3vw) !important;
   text-align: justify;
   font-weight: 600;
+}
+.logoOccident {
+  display: flex;
+  align-items: center; /* Alinea verticalmente */
+  max-width: 130px;
+}
+
+.logo {
+  /* margin-left: 20px; Espacio entre el h2 y la imagen */
+  max-width: 80px; /* Tamaño máximo de la imagen */
+  /* Otros estilos según tus necesidades */
+}
+.custom-button {
+  border: none;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.custom-button:hover {
+  background-color: #ee1a1a;
 }
 
 .contacto {

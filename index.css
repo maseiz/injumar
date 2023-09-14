@@ -37,7 +37,7 @@ nav.abajo {
   border: none;
 }
 .nav-item {
-  text-shadow: 3px 3px 8px rgb(243, 252, 227);
+  text-shadow: 3px 3px 8px rgb(247, 5, 37);
 }
 .seccion-inicio {
   display: flex;
@@ -70,7 +70,7 @@ nav.abajo {
 }
 .seccion-inicio .obfuscate-section .div-inicio-1 h1 {
   width: 100%;
-  color: #222;
+  color: #bd0202;
   text-shadow: 4px 4px 10px white;
   font-weight: 700;
   font-size: 8vw;

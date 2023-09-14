@@ -51,7 +51,8 @@ body {
   text-align: center;
   border: solid 2px;
   border-radius: 10px;
-  box-shadow: 0 0 9px red;
+  color: #ffffff;
+  background-color: #bd0202;
   width: 75%;
 }
 .descripcion p {

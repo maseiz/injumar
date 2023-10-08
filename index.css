@@ -11,6 +11,10 @@ section:target {
   scroll-margin-top: 9vh;
 }
 
+.container-fluid img {
+  width: 100px;
+  margin-left: 50px;
+}
 nav.abajo {
   background-color: black !important;
   opacity: 0.8;
@@ -207,6 +211,7 @@ nav.abajo {
   max-width: 80px; /* Tamaño máximo de la imagen */
   /* Otros estilos según tus necesidades */
 }
+
 .custom-button {
   border: none;
   color: white;

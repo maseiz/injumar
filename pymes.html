@@ -31,9 +31,37 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <style>
+      /* Estilos para el logo */
+      .logoInjumar img {
+        width: 15%;
+      }
+      .logoInjumar {
+        display: flex;
+        margin-top: 30px;
+        margin-bottom: -60px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+      .backImg img {
+        position: absolute;
+        opacity: 0.25; 
+        width: 40%;
+        margin-top: 15%;
+        margin-left: 55%;
+        z-index: -1;
+      }
+    </style>
   </head>
 
   <body>
+    <div class="backImg">
+      <img src="/factory.png"></img>
+    </div>
+    <div class="logoInjumar">
+      <img src="logo.png" alt="Injumar Logo" />
+    </div>
     <div class="descripcion">
       <h1>PYMES</h1>
       <p>

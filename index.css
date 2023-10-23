@@ -15,8 +15,9 @@ section:target {
   width: 100px;
   margin-left: 50px;
 }
+
 nav.abajo {
-  background-color: black !important;
+  background-color: rgb(250, 246, 246) !important;
   opacity: 0.8;
 }
 
@@ -41,7 +42,7 @@ nav.abajo {
   border: none;
 }
 .nav-item {
-  text-shadow: 3px 3px 8px rgb(247, 5, 37);
+  text-shadow: 3px 3px 8px rgb(67, 66, 66);
 }
 .seccion-inicio {
   display: flex;
@@ -342,6 +343,7 @@ footer .colab a:hover {
   section:target {
     scroll-margin-top: 10.5vh;
   }
+
   .seccion-inicio .obfuscate-section .div-inicio-1 h1 {
     font-size: 5vw;
   }
